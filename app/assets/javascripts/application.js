@@ -11,10 +11,11 @@
 // about supported directives.
 //
 //= require jquery3
-//= require popper
 //= require bootstrap-sprockets
-//= require rails-ujs
-//= require turbolinks
+//= require Delicious/js/custom.js 
+//= require Delicious/js/jquery.easing.min.js 
+//= require Delicious/js/jquery.min.js 
+//= require Delicious/js/jquery.mixitup.min.js
 //= require_tree .
 //
 

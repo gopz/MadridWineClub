@@ -1,0 +1,325 @@
+doctype html
+html[lang="en"]
+  head
+    meta[charset="utf-8"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    title
+      | Delicious
+    meta[name="description" content="Free Bootstrap Theme by BootstrapMade.com"]
+  body
+    section#banner
+      .bg-color
+        header#header
+          .container
+            #mySidenav.sidenav
+              a.closebtn[href="javascript:void(0)" onclick="closeNav()"]
+                | ×
+              a[href="#about"]
+                | About
+              a[href="#event"]
+                | Event
+              a[href="#menu-list"]
+                | Menu
+              a[href="#contact"]
+                | Book a table
+            span.pull-right.menu-icon[onclick="openNav()"]
+              | ☰
+        .container
+          .row
+            .inner.text-center
+              h1.logo-name
+                | Madrid Wine Club
+              h2
+                | Enjoy two unique wines each month
+              p
+                | Special tastings for members!
+    section#about.section-padding
+      .container
+        .row
+          .col-md-12.text-center.marb-35
+            h1.header-h
+              | This Month's Wines:
+            p.header-p
+              | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+              br
+              | nibh euismod tincidunt ut laoreet dolore magna aliquam. 
+          .col-md-1
+          .col-md-10
+            .col-md-6.col-sm-6
+              .about-info
+                h2.heading
+                  | vel illum qui dolorem eum
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!
+                .details-list
+                  ul
+                    li
+                      i.fa.fa-check
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    li
+                      i.fa.fa-check
+                      | Quisque finibus eu lorem quis elementum
+                    li
+                      i.fa.fa-check
+                      | Vivamus accumsan porttitor justo sed 
+                    li
+                      i.fa.fa-check
+                      | Curabitur at massa id tortor fermentum luctus
+            .col-md-6.col-sm-6
+              = image_tag('Delicious/img/res02.jpg', class: 'img-responsive')
+          .col-md-1
+    section#event
+      .section-padding
+        .container
+          .row
+            .col-xs-12.text-center[style="padding:60px;"]
+              h1.header-h
+                | Up Coming events
+              p.header-p
+                | Decorations 100% complete here
+            .col-md-12[style="padding-bottom:60px;"]
+              .item.active.left
+                .col-md-6.col-sm-6.left-images
+                  = image_tag('Delicious/img/res01.jpg', class: 'img-responsive')
+                .col-md-6.col-sm-6.details-text
+                  .content-holder
+                    h2
+                      | Joyful party
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.
+                    address
+                      strong
+                        | Place: 
+                      |  1612 Collins Str, Victoria 8007 
+                      br
+                      strong
+                        | Time: 
+                      |  07:30pm 
+                    a.btn.btn-imfo.btn-read-more[href="events-details.html"]
+                      | Read more
+    section#menu-list.section-padding
+      .container
+        .row
+          .col-md-12.text-center.marb-35
+            h1.header-h
+              | Menu List
+            p.header-p
+              | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+              br
+              | nibh euismod tincidunt ut laoreet dolore magna aliquam. 
+          .col-md-12.text-center.gallery-trigger
+            ul
+              li
+                a.filter[data-filter="all"]
+                  | Show All
+              li
+                a.filter[data-filter=".category-1"]
+                  | Breakfast
+              li
+                a.filter[data-filter=".category-2"]
+                  | Lunch
+              li
+                a.filter[data-filter=".category-3"]
+                  | Dinner
+          #Container
+            .mix.category-1.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-1.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-1.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-1.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-2.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-2.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-2.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-2.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-3.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-3.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-3.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+            .mix.category-3.menu-restaurant[data-myorder="2"]
+              span.clearfix
+                a.menu-title[href="#" data-meal-img="assets/img/restaurant/rib.jpg"]
+                  | Food Item Name
+                span.menu-line[style="left: 166px; right: 44px;"]
+                span.menu-price
+                  | $20.99
+              span.menu-subtitle
+                | Neque porro quisquam est qui dolorem
+    section#contact.section-padding
+      .container
+        .row
+          .col-md-12.text-center
+            h1.header-h
+              | Book Your table
+            p.header-p
+              | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+              br
+              | nibh euismod tincidunt ut laoreet dolore magna aliquam. 
+        .row.msg-row
+          .col-md-4.col-sm-4.mr-15
+            .media-2
+              .media-left
+                .contact-phone.bg-1.text-center
+                  span.phone-in-talk.fa.fa-phone
+              .media-body
+                h4.dark-blue.regular
+                  | Phone Numbers
+                p.light-blue.regular.alt-p
+                  | +440 875369208 - 
+                  span.contacts-sp
+                    | Phone Booking
+            .media-2
+              .media-left
+                .contact-email.bg-14.text-center
+                  span.hour-icon.fa.fa-clock-o
+              .media-body
+                h4.dark-blue.regular
+                  | Opening Hours
+                p.light-blue.regular.alt-p
+                  |  Monday to Friday 09.00 - 24:00
+                p.light-blue.regular.alt-p
+                  |  Friday and Sunday 08:00 - 03.00 
+          .col-md-8.col-sm-8
+            form.contactForm[action="" method="post" role="form"]
+              #sendmessage
+                | Your booking request has been sent. Thank you!
+              #errormessage
+              .col-md-6.col-sm-6.contact-form.pad-form
+                .form-group.label-floating.is-empty
+                  input#name.form-control[type="text" name="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"]
+                  .validation
+              .col-md-6.col-sm-6.contact-form
+                .form-group
+                  input#date.form-control.label-floating.is-empty[type="date" name="date" placeholder="Date" data-rule="required" data-msg="This field is required"]
+                  .validation
+              .col-md-6.col-sm-6.contact-form.pad-form
+                .form-group
+                  input#email.form-control.label-floating.is-empty[type="email" name="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"]
+                  .validation
+              .col-md-6.col-sm-6.contact-form
+                .form-group
+                  input#time.form-control.label-floating.is-empty[type="time" name="time" placeholder="Time" data-rule="required" data-msg="This field is required"]
+                  .validation
+              .col-md-6.col-sm-6.contact-form
+                .form-group
+                  input#phone.form-control.label-floating.is-empty[type="text" name="phone" placeholder="Phone" data-rule="required" data-msg="This field is required"]
+                  .validation
+              .col-md-6.col-sm-6.contact-form
+                .form-group
+                  input#people.form-control.label-floating.is-empty[type="text" name="people" placeholder="People" data-rule="required" data-msg="This field is required"]
+                  .validation
+              .col-md-12.contact-form
+                .form-group.label-floating.is-empty
+                  textarea.form-control[name="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"]
+                  .validation
+              .col-md-12.btnpad
+                .contacts-btn-pad
+                  button.contacts-btn
+                    | Book Table
+    footer.footer.text-center
+      .footer-top
+        .row
+          .col-md-offset-3.col-md-6.text-center
+            .widget
+              h4.widget-title
+                | Delicious
+              address
+                | 324 Ellte Road
+                br
+                | Delhi, DL 110013
+              .social-list
+                a[href="#"]
+                  i.fa.fa-twitter[aria-hidden="true"]
+                a[href="#"]
+                  i.fa.fa-facebook[aria-hidden="true"]
+              p.copyright.clear-float
+                |  © Delicious Theme. All Rights Reserved 
+              .credits
+                |  Designed by 
+                a[href="https://bootstrapmade.com/"]
+                  | BootstrapMade
