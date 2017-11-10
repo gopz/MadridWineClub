@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+// All of these rules override a rule with the same selectors
+// in vendor/assets/bootstrap_themes/Delicious/css/style.css
+
+$wine: #b7282c;
+
+.logo-name {
+  font-family:'Roboto Slab', sans-serif; 
+  color: #FF9494; 
+}
+
+#banner p {
+  font-family:'Roboto Slab', sans-serif; 
+}
+
+.header-h {
+  color: $wine;
+  font-family:'Roboto Slab', sans-serif; 
+}
+
+.header-p {
+  font-family:'Roboto Slab', sans-serif; 
+}
+
+.heading {
+  font-family:'Roboto Slab', sans-serif; 
+  color: $wine;
+}
+
+.about-info {
+  p {
+    font-family:'Roboto Slab', sans-serif; 
+    }
+}
+
+#about img {
+  border: 0px solid #ffb03b;
+  border-radius: 0px;
+}
+
+//#about {
+//  border-bottom: 2px solid #9699a6;
+//}
+
+.border-line {
+  border-bottom: 2px solid #9699a6;
+}
+
+
+#event {
+  background: none; 
+}
+
+
+
